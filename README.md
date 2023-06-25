@@ -57,6 +57,7 @@ Open your package.json file.
 Add the following line: "type": "module".
 Save the file.
 Now you can use the ES module syntax in your code.
+
 Option 2: Rename the file to use the .mjs extension:
 
 Rename your file from daily_todo.js to daily_todo.mjs.
