@@ -5,20 +5,20 @@ hence created package.json using npm init
 added "type": "module" in package.json and now export working fine
 
 1. linkedinCover.js  --->
-
+<code>
 // Today's mood: skip everything, only code
 import  todoList from './daily_todo.js';
 console.log(todoList);
 const mood = (tasks) => tasks.map(task => task = "coding");   
 console.log(mood(todoList));
-
+</code>
 2. daily_todo.js  ---->
-
+<code>
 const todoList = ['a', 'b', 'c'];
 export default todoList;
-
+</code>
 3. package.json -->
-
+<code>
 {
   "name": "linkedin_cover",
   "version": "1.0.0",
@@ -31,4 +31,4 @@ export default todoList;
   "author": "",
   "license": "ISC"
 }
-
+</code>
