@@ -17,7 +17,9 @@ console.log(mood(todoList));
 </code>
 
 2. daily_todo.js  ---->
+
 <code>
+
 const todoList = ['a', 'b', 'c'];
 export default todoList;
 
